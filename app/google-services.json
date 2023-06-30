@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048834442319",
+    "project_id": "swasthya-care",
+    "storage_bucket": "swasthya-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048834442319:android:f942b9e802f3388a41d63a",
+        "android_client_info": {
+          "package_name": "com.example.swasthyacare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048834442319-e6kihtgtht0pj1853tak4vetq6dmo4bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ZJsnUzEzxGi4NxQNz3XBGS76PCSkj74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048834442319-e6kihtgtht0pj1853tak4vetq6dmo4bf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

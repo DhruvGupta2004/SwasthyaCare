@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="HOME"/>
+
+    <item
+        android:id="@+id/doctor"
+        android:icon="@drawable/doctor"
+        android:title="DOCTOR"/>
+
+    <item
+        android:id="@+id/LabTest"
+        android:icon="@drawable/lab_test"
+        android:title="LAB TEST"/>
+
+    <item
+        android:id="@+id/medicine"
+        android:icon="@drawable/medicines"
+        android:title="PHARMACY"/>
+
+<!--    <item-->
+<!--        android:id="@+id/OrderDetails"-->
+<!--        android:icon="@drawable/orders"-->
+<!--        android:title="ORDER DETAILS"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/reminder"-->
+<!--        android:icon="@drawable/reminder"-->
+<!--        android:title="REMINDER"/>-->
+
+
+    <item android:title="COMMUNICATE"
+        android:id="@+id/hello">
+        <menu>
+
+
+            <item
+                android:icon="@drawable/baseline_rate_review_24"
+                android:title="RATE_US"
+                android:id="@+id/nav_rate"/>
+
+            <item
+                android:icon="@drawable/baseline_share_24"
+                android:title="SHARE"
+                android:id="@+id/nav_share"/>
+        </menu>
+    </item>
+
+
+    <item android:title="PROFILE">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="LOGOUT" />
+
+        </menu>
+    </item>
+
+
+</menu>

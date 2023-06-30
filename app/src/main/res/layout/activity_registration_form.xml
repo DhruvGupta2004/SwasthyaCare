@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".RegistrationForm">
+
+
+    <TextView
+        android:id="@+id/ettextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="REGISTRATION"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/teal_700"/>
+
+    <ImageView
+        android:id="@+id/etimageView2"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:padding="0dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logotrans"
+        android:textColorHint="@color/black"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etname"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Name"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/white"
+        android:background="@drawable/greyentry"
+        android:drawableLeft="@drawable/baseline_person_24"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etemail_id"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Phone_No"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/white"
+        android:background="@drawable/greyentry"
+        android:drawableLeft="@drawable/baseline_phone_24"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etpassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/white"
+        android:background="@drawable/greyentry"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawableRight="@drawable/baseline_remove_red_eye_24"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etrepassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:drawablePadding="10dp"
+        android:hint= "Confirm Password"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/greyentry"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawableRight="@drawable/baseline_remove_red_eye_24"/>
+
+    <CheckBox
+        android:id="@+id/etcheckBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:text="I accept all the terms &amp; conditions" />
+
+    <Button
+        android:id="@+id/etbtnRegister"
+        android:layout_width="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:background="@drawable/greylight"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/etsignin"
+        android:layout_width="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="SignIn"
+        android:textColor="@color/black"
+        android:background="@drawable/greylight"
+        android:backgroundTint="@color/teal_700"/>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="@drawable/greylight">
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="RATE US"
+        android:textColor="#EADFDF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/ratingBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#3E8398"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/review"
+        android:layout_width="299dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:background="@color/ic_launcher_background"
+        android:backgroundTint="#A8CAB2"
+        android:drawableLeft="@drawable/baseline_rate_review_24"
+        android:drawablePadding="10dp"
+        android:hint="Write Review..."
+        android:padding="15dp"
+        android:textColorHint="#421F1F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="63dp"
+        android:background="@drawable/greyentry"
+        android:text="SUBMIT RATING"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/review" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
