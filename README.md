@@ -15,6 +15,7 @@ Firebase: Firebase is used for user authentication, real-time database, and clou
 ## Screenshots
 <img width='154' alt = 'img' src = "https://github.com/DhruvGupta2004/SwasthyaCare/assets/112793698/5584809e-a87b-4ebc-8691-707d63b41e35">
 <img width='154' alt = 'img' src = "https://github.com/DhruvGupta2004/SwasthyaCare/assets/112793698/51fca579-3bff-4a91-ab33-cb9768bf55fd">
+<img width='154' height= '335' alt = 'img' src = "https://github.com/DhruvGupta2004/SwasthyaCare/assets/112793698/d2b3dd2b-c237-4885-91d6-94ce5b83b24a">
 <img width='154' alt = 'img' src = "https://github.com/DhruvGupta2004/SwasthyaCare/assets/112793698/f749c349-4e73-4c4d-bc03-c97c2224f234">
 <img width='154' alt = 'img' src = "https://github.com/DhruvGupta2004/SwasthyaCare/assets/112793698/c31281de-bd22-45d2-a23c-9ffd826fbdc7">
 <img width='154' alt = 'img' src = "https://github.com/DhruvGupta2004/SwasthyaCare/assets/112793698/55a7ac10-90e7-4c85-8fd9-8426b7038381">
